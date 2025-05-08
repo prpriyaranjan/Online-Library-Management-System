@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shiv Library</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            background-image: url('assets/images/library_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .glass-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #ddd;
+            margin-bottom: 30px;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .button-group a {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px 24px;
+            border-radius: 30px;
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            width: 70%;
+            max-width: 300px;
+        }
+
+        .button-group a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="glass-container">
+        <h1>Welcome to The Shiv Library</h1>
+        <p>Login below to explore your library world.</p>
+        <div class="button-group">
+            <a href="auth/user_login.php">User Login</a>
+            <a href="auth/admin_login.php">Admin Login</a>
+        </div>
+        <footer>
+            Designed and Developed by Priyaranjan
+        </footer>
+    </div>
+</body>
+</html>

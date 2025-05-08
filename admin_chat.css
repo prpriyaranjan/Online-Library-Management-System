@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f2f3f5;
+}
+
+.chat-container {
+    display: flex;
+    height: 100vh;
+}
+
+.user-list {
+    width: 300px;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.user-list h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.user-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.2s ease;
+}
+
+.user-link:hover, .user-link.active {
+    background: #e6f0ff;
+}
+
+.user-link .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.chat-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fafafa;
+    padding: 20px;
+}
+
+.chat-messages {
+    flex: 1;
+    width: 100%;
+    border: none;
+    background: #fff;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.chat-form {
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-form textarea {
+    flex: 1;
+    resize: none;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    background: #f4f4f4;
+}
+
+.chat-form button {
+    background: #4a90e2;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chat-form button:hover {
+    background: #357ab8;
+}
+
+.placeholder {
+    text-align: center;
+    margin-top: 150px;
+    color: #999;
+}
+/* admin_chat.css */
+.admin-message {
+    background-color: #dcf8c6;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    text-align: right;
+    max-width: 70%;
+    margin-left: auto;
+    color: #000;
+  }
+  
+  .user-message {
+    background-color: #fff;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    text-align: left;
+    max-width: 70%;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    color: #000;
+  }
+  

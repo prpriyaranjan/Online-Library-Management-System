@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+AllowOverride All
+Require all granted
